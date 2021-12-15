@@ -9,13 +9,13 @@ function Contact() {
                         <div class="Bnr_left bnr-cmn">
                             <div class="hero_text">
                                 <h1 data-aos="zoom-in"
-                                    data-aos-duration="500"
+                                    data-aos-duration="300"
                                     data-aos-easing="ease-in-sine">Contact Us</h1>
                             </div>
                             {/* <!-- cd-intro --> */}
                             <p data-aos="fade-up"
-                                data-aos-duration="600"
-                                data-aos-easing="ease-in-sine">contact us
+                                data-aos-duration="450"
+                                data-aos-easing="ease-in-sine">
                             </p>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ function Contact() {
                     <div class="contact-form_wrapper">
                         <div class="left_side01 Contact_cmn01">
                             <div id="map-canvas" data-aos="zoom-in"
-                                data-aos-duration="500"
+                                data-aos-duration="400"
                                 data-aos-easing="ease-in-sine">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d56100.367244625886!2d77.05120526328555!3d28.501434441689433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x390d19152ecb21c1%3A0x808292ec66a4945e!2sMassman%20CyberGeeks%20-%20Digital%20Marketing%20Company%20in%20Gurgaon%2C%20Udyog%20Vihar%20Phase%20V%2C%20Phase%20V%2C%20Udyog%20Vihar%2C%20Sector%2019%2C%20Gurugram%2C%20Haryana!3m2!1d28.5013635!2d77.0862247!4m0!5e0!3m2!1sen!2sin!4v1611295005843!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style={{ border: 0 }} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                             </div>
@@ -64,9 +64,11 @@ function Contact() {
                                 </blockquote>
 
                             </div> --> */}
-                            <div class="container">
+                            <div class="container" >
                                 <div class="Service_content" style={{ padding: 0 }}>
-                                    <div class="a1 Srv_cmn" data-tilt data-tilt-reverse="true">
+                                    <div class="a1 Srv_cmn" data-tilt data-tilt-reverse="true" data-aos="fade-up"
+                                        data-aos-duration="700"
+                                        data-aos-easing="ease-in-sine">
                                         <figure>
                                             <span class="spn1"> <img src="image/phone.svg" alt="img" /></span>
                                         </figure>
@@ -77,7 +79,9 @@ function Contact() {
                                             {/* <!-- <p>Our significant knowledge of mobile application development technologies & frameworks,…</p> --> */}
                                         </figcaption>
                                     </div>
-                                    <div class="a2 Srv_cmn" data-tilt data-tilt-reverse="true">
+                                    <div class="a2 Srv_cmn" data-tilt data-tilt-reverse="true" data-aos="fade-up"
+                                        data-aos-duration="700"
+                                        data-aos-easing="ease-in-sine">
                                         <figure>
                                             <span class="spn1">   <img src="image/location.svg" alt="img" /></span>
                                         </figure>
@@ -88,7 +92,9 @@ function Contact() {
                                             {/* <!-- <p>Our significant knowledge of mobile application development technologies & frameworks,…</p> --> */}
                                         </figcaption>
                                     </div>
-                                    <div class="a3 Srv_cmn" id="Scroll_bottm" data-tilt data-tilt-reverse="true" >
+                                    <div class="a3 Srv_cmn" id="Scroll_bottm" data-tilt data-tilt-reverse="true" data-aos="fade-up"
+                                        data-aos-duration="700"
+                                        data-aos-easing="ease-in-sine">
                                         <figure>
                                             <span class="spn1">   <img src="image/email.svg" alt="img" /></span>
                                         </figure>
@@ -102,18 +108,18 @@ function Contact() {
                                 </div>
                             </div>
                             <div class="form_wrp Rfm_cmn" data-aos="fade-up"
-                                data-aos-duration="500"
+                                data-aos-duration="350"
                                 data-aos-easing="ease-in-sine">
                                 <div class="form_heading">
                                     <h2 data-aos="fade-up"
-                                        data-aos-duration="600"
+                                        data-aos-duration="400"
                                         data-aos-easing="ease-in-sine">Send Us a Message</h2>
                                     {/* <!-- <p data-aos="fade-up"
                                         data-aos-duration="700"
                                         data-aos-easing="ease-in-sine">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, atque.</p> --> */}
                                 </div>
                                 <form action="#" method="" data-aos="fade-up"
-                                    data-aos-duration="800"
+                                    data-aos-duration="600"
                                     data-aos-easing="ease-in-sine">
                                     <div class="f1 Cont_Cmn2" >
                                         {/* <!-- <label for="#">  Name<sup>*</sup> </label> --> */}

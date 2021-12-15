@@ -11,7 +11,7 @@
   }
   .Achivement_wapper .Achievement_content .Achieve_unord li figure b {
     -webkit-transform: translate(-18px, 50px);
-            transform: translate(-18px, 50px);
+    transform: translate(-18px, 50px);
   }
   .Achivement_wapper .Achievement_content .Achieve_unord li figure b i {
     font-size: 2em;
@@ -20,7 +20,7 @@
     font-size: 2.3em;
   }
   .Achivement_wapper .Achievement_content .Achieve_unord li figcaption p {
-    padding: .6rem 1rem;
+    padding: 0.6rem 1rem;
     font-size: 1.1em;
   }
   .Achivement_wapper .Achiv_wave {
@@ -32,7 +32,14 @@
   .Portfolio-wrapper .Port_content .port_tab-content ul li {
     width: 30%;
   }
-  .Portfolio-wrapper .Port_content .port_tab-content ul li .port-web figcaption p {
+  .Portfolio-wrapper
+    .Port_content
+    .port_tab-content
+    ul
+    li
+    .port-web
+    figcaption
+    p {
     word-break: break-all;
   }
   .Testimonial_wrapper {
@@ -40,7 +47,7 @@
   }
   .Our-Service_wrapper .Service_content .Srv_cmn {
     width: 29%;
-    margin: .6rem;
+    margin: 0.6rem;
   }
   footer .Footer-content .Ft_cmno1 {
     width: 28%;
@@ -58,14 +65,14 @@
   }
   .Our-Service_wrapper .Srv-heading h2 {
     font-size: 2em;
-    padding: 0rem 0 .5rem;
+    padding: 0rem 0 0.5rem;
   }
   .Our-Service_wrapper .Service_content {
     padding: 3rem 0 1rem;
   }
   .Our-Service_wrapper .Service_content .Srv_cmn {
     width: 45%;
-    margin: .6rem;
+    margin: 0.6rem;
   }
   .Our-Service_wrapper .Service_content .Srv_cmn figcaption p {
     font-size: 15px;
@@ -109,19 +116,29 @@
   footer .Footer-content .Ft_cmno1 h2 {
     font-size: 1.3em;
     line-height: 1.5;
-    padding: 0 0 .6rem;
+    padding: 0 0 0.6rem;
   }
   .Contact-Us_Wrapper .contact-form_wrapper {
     padding: 6rem 0 0;
     width: 95%;
   }
-  .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote h2 {
+  .Contact-Us_Wrapper
+    .contact-form_wrapper
+    .right-side01
+    .Rfm_cmn
+    blockquote
+    h2 {
     font-size: 2.1em;
-    padding: .6rem 0;
+    padding: 0.6rem 0;
   }
-  .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .form_wrp form .Cont_Cmn2 {
+  .Contact-Us_Wrapper
+    .contact-form_wrapper
+    .right-side01
+    .form_wrp
+    form
+    .Cont_Cmn2 {
     width: 47%;
-    margin: 0 .3rem;
+    margin: 0 0.3rem;
   }
   .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .form_wrp form .f5 {
     padding: 0 0 1rem;
@@ -147,17 +164,17 @@
     height: 4px;
     margin: 6px 0;
     background-image: linear-gradient(45deg, #ffffff, #faf9fc);
-    -webkit-transition: all .4s ease-in;
-    transition: all .4s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
   }
   .main-bar.activefile {
     top: 38px !important;
   }
   .activefile .a {
     -webkit-transform: rotateZ(43deg);
-            transform: rotateZ(43deg);
-    -webkit-transition: all .5s ease-in;
-    transition: all .5s ease-in;
+    transform: rotateZ(43deg);
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
   }
   .activefile .b {
     opacity: 0;
@@ -167,8 +184,8 @@
     transform: rotateZ(-46deg);
     top: 0px;
     position: absolute;
-    -webkit-transition: all .4s ease-in;
-    transition: all .4s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
     margin: 6px 0 0 0px;
   }
   .myHeader {
@@ -182,7 +199,7 @@
     left: 0px;
     background: #262f3a;
     text-align: center;
-    border-bottom: 3px solid #FF9800;
+    border-bottom: 3px solid #ff9800;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     padding: 1rem 0 0;
@@ -203,7 +220,7 @@
   main header nav .Nav_item ul li {
     margin: 0 0rem;
     border-bottom: 1px solid #ffffff3d;
-    padding: .6rem 0;
+    padding: 0.6rem 0;
   }
   main header nav .Nav_item ul li:nth-child(4) {
     border-bottom: inherit !important;
@@ -243,24 +260,53 @@
   .contact-form {
     right: -100%;
   }
-  .Portfolio-wrapper .Port_content .port_tab-content ul li .port-web figcaption p {
+  .Portfolio-wrapper
+    .Port_content
+    .port_tab-content
+    ul
+    li
+    .port-web
+    figcaption
+    p {
     font-size: 15px;
   }
-  .Portfolio-wrapper .Port_content .port_tab-content ul li .port-web figcaption a {
+  .Portfolio-wrapper
+    .Port_content
+    .port_tab-content
+    ul
+    li
+    .port-web
+    figcaption
+    a {
     font-size: 15px;
   }
   .Achivement_wapper .Achievement_content .Achieve_unord li figure b {
     -webkit-transform: translate(-19px, 47px);
-            transform: translate(-19px, 47px);
+    transform: translate(-19px, 47px);
   }
-  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_right p {
+  .Testimonial_wrapper
+    .Testimonial_content
+    .testimonial_child
+    .testimonial-subchild
+    .test_right
+    p {
     font-size: 15px;
     margin: 0 0 2rem;
   }
-  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_lft figure h4 {
+  .Testimonial_wrapper
+    .Testimonial_content
+    .testimonial_child
+    .testimonial-subchild
+    .test_lft
+    figure
+    h4 {
     font-size: 1em;
   }
-  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_lft {
+  .Testimonial_wrapper
+    .Testimonial_content
+    .testimonial_child
+    .testimonial-subchild
+    .test_lft {
     width: 100%;
     padding: 1rem 0 0;
     text-align: center;
@@ -269,10 +315,20 @@
     border: inherit;
     background: inherit;
   }
-  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_lft figure img {
+  .Testimonial_wrapper
+    .Testimonial_content
+    .testimonial_child
+    .testimonial-subchild
+    .test_lft
+    figure
+    img {
     max-width: 28%;
   }
-  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_right {
+  .Testimonial_wrapper
+    .Testimonial_content
+    .testimonial_child
+    .testimonial-subchild
+    .test_right {
     width: 100%;
     text-align: center;
     margin: 0 1rem 0 0;
@@ -281,15 +337,30 @@
     right: 38%;
     bottom: 18px;
   }
-  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_right p::after {
+  .Testimonial_wrapper
+    .Testimonial_content
+    .testimonial_child
+    .testimonial-subchild
+    .test_right
+    p::after {
     right: 59px;
     bottom: 15px;
   }
-  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_lft figure h4 {
+  .Testimonial_wrapper
+    .Testimonial_content
+    .testimonial_child
+    .testimonial-subchild
+    .test_lft
+    figure
+    h4 {
     font-size: 1em;
     padding: 2rem 0 1rem;
   }
-  .Testimonial_wrapper .Testimonial_content .testimonial_child .owl-dots button.owl-dot {
+  .Testimonial_wrapper
+    .Testimonial_content
+    .testimonial_child
+    .owl-dots
+    button.owl-dot {
     width: 2rem;
     height: 8px;
   }
@@ -335,8 +406,8 @@
   }
   footer .Footer-content {
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   footer .Footer-content .Ft_cmno1 {
     width: 41%;
@@ -346,16 +417,16 @@
     max-width: 100%;
   }
   footer .Footer-content .Ft_cmno1 ul li label input {
-    padding: 1rem .6rem;
+    padding: 1rem 0.6rem;
     font-size: 14px;
-    margin: .5rem 0 .3rem;
+    margin: 0.5rem 0 0.3rem;
   }
   footer .Footer-content .Ft_cmno1 ul .Connected .Connect_unorder li a {
     width: 35px;
     height: 35px;
   }
   footer .Footer-content .Ft_cmno1 ul .Connected .Connect_unorder li a i {
-    padding: .7rem .5rem;
+    padding: 0.7rem 0.5rem;
   }
   .banner_wrapper {
     height: 528px;
@@ -364,8 +435,9 @@
     height: 142px;
     top: -141px;
   }
-  .Our-Service_wrapper .Srv-heading h2, .Portfolio-wrapper .port-heading h2
-, .Testimonial_wrapper .testimonial-heading h2 {
+  .Our-Service_wrapper .Srv-heading h2,
+  .Portfolio-wrapper .port-heading h2,
+  .Testimonial_wrapper .testimonial-heading h2 {
     font-size: 1.7em;
   }
   .Our-Service_wrapper .Service_content .Srv_cmn figure img {
@@ -377,7 +449,7 @@
   }
   .Achivement_wapper .Achievement_content .Achieve_unord li figure b {
     -webkit-transform: translate(-19px, 41px);
-            transform: translate(-19px, 41px);
+    transform: translate(-19px, 41px);
   }
   .Achivement_wapper .Achievement_content .Achieve_unord li figcaption h3 {
     font-size: 2em;
@@ -390,7 +462,7 @@
     padding: 5rem 0 6rem;
   }
   .Achivement_wapper .Achievement_content .Achieve_unord li figcaption p {
-    padding: .6rem 1rem;
+    padding: 0.6rem 1rem;
     font-size: 1em;
   }
   .About_wrapper .About_content .Abt_cmn01 {
@@ -408,8 +480,8 @@
   }
   footer .Copyright_wrp {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .cpy-lft.cpy-cmn {
     padding: 0 0 1rem;
@@ -436,14 +508,30 @@
   .app-development .AppConten_wrp .App_cnt {
     padding: 3rem 0 1rem;
   }
-  .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote h2 {
+  .Contact-Us_Wrapper
+    .contact-form_wrapper
+    .right-side01
+    .Rfm_cmn
+    blockquote
+    h2 {
     font-size: 1.6em;
-    padding: .6rem 0;
+    padding: 0.6rem 0;
   }
-  .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote > p {
+  .Contact-Us_Wrapper
+    .contact-form_wrapper
+    .right-side01
+    .Rfm_cmn
+    blockquote
+    > p {
     margin-right: 1rem;
   }
-  .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote ul li {
+  .Contact-Us_Wrapper
+    .contact-form_wrapper
+    .right-side01
+    .Rfm_cmn
+    blockquote
+    ul
+    li {
     font-size: 15px;
   }
   .Contact-Us_Wrapper .contact-form_wrapper {
@@ -454,11 +542,19 @@
     width: 100%;
     margin: 0 0 1rem;
   }
-  .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .form_wrp form .f5 input {
+  .Contact-Us_Wrapper
+    .contact-form_wrapper
+    .right-side01
+    .form_wrp
+    form
+    .f5
+    input {
     width: 100%;
     font-size: 1.1em;
   }
-  .f5 label:active::before, .f5 label:focus::before, .f5 label:focus-within::before {
+  .f5 label:active::before,
+  .f5 label:focus::before,
+  .f5 label:focus-within::before {
     width: 100% !important;
   }
 }
@@ -483,7 +579,7 @@
   }
   main header nav .Nav_item ul li a {
     font-size: 1em;
-    padding: .6rem 0 .6rem;
+    padding: 0.6rem 0 0.6rem;
   }
   .banner_wrapper .Banner_content .Bnr_left h1 {
     font-size: 1.5em;
@@ -512,15 +608,19 @@
   .banner_wrapper .Banner_content .Bnr_left {
     padding: 4rem 1rem 1rem;
   }
-  .Our-Service_wrapper .Srv-heading h2, .Portfolio-wrapper .port-heading h2, .Testimonial_wrapper .testimonial-heading h2 {
+  .Our-Service_wrapper .Srv-heading h2,
+  .Portfolio-wrapper .port-heading h2,
+  .Testimonial_wrapper .testimonial-heading h2 {
     font-size: 1.6em;
   }
-  .Our-Service_wrapper .Srv-heading p, .Portfolio-wrapper .port-heading p, .Testimonial_wrapper .testimonial-heading p {
+  .Our-Service_wrapper .Srv-heading p,
+  .Portfolio-wrapper .port-heading p,
+  .Testimonial_wrapper .testimonial-heading p {
     font-size: 15px;
   }
   .Our-Service_wrapper .Service_content .Srv_cmn {
     width: 100%;
-    margin: .6rem;
+    margin: 0.6rem;
   }
   .Achivement_wapper .Achievement_content .Achieve_unord li figcaption h3 {
     font-size: 1.8em;
@@ -550,11 +650,11 @@
     margin: 1rem 0 0;
   }
   .Portfolio-wrapper .Port_content .Port_tab li {
-    padding: .6rem .2rem;
+    padding: 0.6rem 0.2rem;
   }
   .Portfolio-wrapper .Port_content .Port_tab li a {
-    margin: 0 .5rem;
-    padding: .8rem 1.4rem;
+    margin: 0 0.5rem;
+    padding: 0.8rem 1.4rem;
   }
   .Portfolio-wrapper .Port_content .port_tab-content {
     padding: 3rem 0 0;
@@ -566,29 +666,60 @@
     right: 31%;
     bottom: 18px;
   }
-  .Testimonial_wrapper .Testimonial_content .testimonial_child .owl-dots button.owl-dot {
+  .Testimonial_wrapper
+    .Testimonial_content
+    .testimonial_child
+    .owl-dots
+    button.owl-dot {
     width: 1.6rem;
     height: 6px;
   }
-  .Testimonial_wrapper .Testimonial_content .testimonial_child .owl-dots button.owl-dot.active {
+  .Testimonial_wrapper
+    .Testimonial_content
+    .testimonial_child
+    .owl-dots
+    button.owl-dot.active {
     height: 9px;
   }
-  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_right {
-    margin: 0 .0rem 0 0;
+  .Testimonial_wrapper
+    .Testimonial_content
+    .testimonial_child
+    .testimonial-subchild
+    .test_right {
+    margin: 0 0rem 0 0;
   }
-  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_right p::after {
+  .Testimonial_wrapper
+    .Testimonial_content
+    .testimonial_child
+    .testimonial-subchild
+    .test_right
+    p::after {
     right: 25px;
     bottom: 15px;
   }
-  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_right p {
+  .Testimonial_wrapper
+    .Testimonial_content
+    .testimonial_child
+    .testimonial-subchild
+    .test_right
+    p {
     font-size: 15px;
     margin: 0 0 2rem;
-    padding: .8rem;
+    padding: 0.8rem;
   }
-  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild {
+  .Testimonial_wrapper
+    .Testimonial_content
+    .testimonial_child
+    .testimonial-subchild {
     margin: 0 0;
   }
-  .Testimonial_wrapper .Testimonial_content .testimonial_child .testimonial-subchild .test_lft figure img {
+  .Testimonial_wrapper
+    .Testimonial_content
+    .testimonial_child
+    .testimonial-subchild
+    .test_lft
+    figure
+    img {
     max-width: 46%;
   }
   footer {
@@ -602,15 +733,15 @@
   }
   footer .Footer-content .Ft_cmno1 ul .Connected .Connect_unorder {
     -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
   }
   footer .Footer-content .Ft_cmno1 h2 a img {
     max-width: 58%;
   }
   footer .Footer-content .Ft_cmno1 ul .Submit input {
     font-size: 1em;
-    padding: .9rem .6rem;
+    padding: 0.9rem 0.6rem;
   }
   footer .Copyright_wrp .cpy-rgt p {
     text-align: center;
@@ -668,14 +799,29 @@
   footer .Footer-content .Ft_cmno1 ul li p {
     font-size: 15px;
   }
-  .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote h2 {
+  .Contact-Us_Wrapper
+    .contact-form_wrapper
+    .right-side01
+    .Rfm_cmn
+    blockquote
+    h2 {
     font-size: 1.4em;
-    padding: .6rem 0;
+    padding: 0.6rem 0;
   }
-  .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .form_wrp .form_heading h2 {
+  .Contact-Us_Wrapper
+    .contact-form_wrapper
+    .right-side01
+    .form_wrp
+    .form_heading
+    h2 {
     padding: 0rem 0 1rem;
   }
-  .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .form_wrp .form_heading p {
+  .Contact-Us_Wrapper
+    .contact-form_wrapper
+    .right-side01
+    .form_wrp
+    .form_heading
+    p {
     font-size: 15px;
   }
   .right-sticky {
@@ -684,21 +830,40 @@
   .right-sticky a {
     font-size: 1em;
   }
-  .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .form_wrp form .Cont_Cmn2 {
+  .Contact-Us_Wrapper
+    .contact-form_wrapper
+    .right-side01
+    .form_wrp
+    form
+    .Cont_Cmn2 {
     width: 100%;
-    margin: 0 .3rem;
+    margin: 0 0.3rem;
   }
-  .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .form_wrp form .f5 input {
+  .Contact-Us_Wrapper
+    .contact-form_wrapper
+    .right-side01
+    .form_wrp
+    form
+    .f5
+    input {
     width: 100% !important;
   }
   .Contact-Us_Wrapper .contact-form_wrapper .right-side01 {
     padding: 1rem 0 0;
   }
-  .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .form_wrp form .f4 textarea {
+  .Contact-Us_Wrapper
+    .contact-form_wrapper
+    .right-side01
+    .form_wrp
+    form
+    .f4
+    textarea {
     width: 100%;
     height: 100px;
   }
-  .f5 label:active::before, .f5 label:focus::before, .f5 label:focus-within::before {
+  .f5 label:active::before,
+  .f5 label:focus::before,
+  .f5 label:focus-within::before {
     width: 100% !important;
   }
   .Thanks_Wrapper .Thanks_wrp {
@@ -717,6 +882,7 @@
     width: 31%;
   }
   .banner_wrapper .Banner_content .Bnr_left h1 {
+    margin-top: 9%;
     font-size: 1.4em;
   }
   .banner_wrapper .Banner_content .Bnr_left p {
@@ -740,7 +906,7 @@
     margin: 0 0 2rem;
   }
   .Portfolio-wrapper .Port_content .Port_tab li {
-    padding: .6rem .2rem;
+    padding: 0.6rem 0.2rem;
     width: 100%;
     text-align: center;
   }
@@ -758,11 +924,21 @@
   .app-development .Bnr_left {
     padding: 4rem 1rem 1rem !important;
   }
-  .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote h2 {
+  .Contact-Us_Wrapper
+    .contact-form_wrapper
+    .right-side01
+    .Rfm_cmn
+    blockquote
+    h2 {
     font-size: 1.2em;
-    padding: .6rem 0;
+    padding: 0.6rem 0;
   }
-  .Contact-Us_Wrapper .contact-form_wrapper .right-side01 .Rfm_cmn blockquote > p {
+  .Contact-Us_Wrapper
+    .contact-form_wrapper
+    .right-side01
+    .Rfm_cmn
+    blockquote
+    > p {
     margin-right: 1rem;
     font-size: 15px;
   }

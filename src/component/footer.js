@@ -14,28 +14,28 @@ function Footer() {
                     {/* <!-- <div class="s1 s-cmn01"><a href="javascript:(void)" class="a1"><b>Facebook</b> <i class="fab fa-facebook-f"></i></a></div> --> */}
                     <div class="s5 s-cmn01">
                         <a href="javascript:(void)" class="a3"
-                        ><b>Google</b> <i class="fab fa-google"></i
+                        ><b>devotedhorses@</b> <i class="fab fa-google"></i
                         ></a>
                     </div>
                     <div class="s2 s-cmn01">
-                        <a href="javascript:(void)" class="a2"
+                        <a href="https://twitter.com/devotedhorses" class="a2" target="_blank"
                         ><b>Twitter</b> <i class="fab fa-twitter"></i
                         ></a>
                     </div>
                     <div class="s3 s-cmn01">
-                        <a href="javascript:(void)" class="a4"
-                        ><b>Linkdin</b> <i class="fab fa-linkedin"></i
+                        <a href="https://www.linkedin.com/in/devotedhorses" class="a4" target="_blank"
+                        ><b >Linkdin</b> <i class="fab fa-linkedin"></i
                         ></a>
                     </div>
                     <div class="s4 s-cmn01">
-                        <a href="javascript:(void)" class="a4"
+                        <a href="https://join.skype.com/invite/yfeeONWCIWCP" class="a4" target="_blank"
                         ><b>Skype</b> <i class="fab fa-skype"></i
                         ></a>
                     </div>
                 </div>
 
                 <footer class="wow fadeIn" style={{ visibility: 'visible' }} data-aos="fade-up"
-                    data-aos-duration="500"
+                    data-aos-duration="300"
                     data-aos-easing="ease-in-sine">
                     {/* <!-- Wave SVG Animation --> */}
                     <div class="waves">
@@ -61,11 +61,11 @@ function Footer() {
                     <div class="container">
                         <div class="Footer-content">
                             <div class="Ft_item1 Ft_cmno1" data-aos="fade-up"
-                                data-aos-duration="500"
+                                data-aos-duration="300"
                                 data-aos-easing="ease-in-sine">
                                 <ul>
                                     <h2 data-aos="zoom-in-up"
-                                        data-aos-duration="500"
+                                        data-aos-duration="300"
                                         data-aos-easing="ease-in-sine">
                                         <a href="javascript:(void)">
                                             <img src="image/logo1.png" alt="logo" data-tilt data-tilt-glare data-tilt-max-glare="0.8"></img>
@@ -80,18 +80,18 @@ function Footer() {
                                     </li>
                                     <li class="Connected">
                                         <h2>Stay Connected</h2>
-                                        <ul class="Connect_unorder">
-                                            <li><a href="javascript:(void)" class="a1"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="javascript:(void)" class="a2"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="javascript:(void)" class="a3"><i class="fab fa-instagram"></i></a></li>
-                                            <li><a href="javascript:(void)" class="a4"><i class="fab fa-skype"></i></a></li>
-                                            <li><a href="javascript:(void)" class="a1"><i class="fab fa-linkedin"></i></a></li>
+                                        <ul class="Connect_unorder" style={{ marginLeft: "70px" }} >
+                                            <li><a href="https://www.facebook.com/profile.php?id=100076282652138" class="a1" target='_blank'><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="https://twitter.com/devotedhorses" class="a2" target='_blank'><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://www.instagram.com/devotedhorses/" class="a3" target='_blank'><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="https://join.skype.com/invite/yfeeONWCIWCP" class="a4" target='_blank'><i class="fab fa-skype"></i></a></li>
+                                            <li><a href="http://www.linkedin.com/in/devotedhorses" class="a1" target='_blank'><i class="fab fa-linkedin"></i></a></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </div>
                             <div class="Ft_item2 Ft_cmno1" data-aos="fade-up"
-                                data-aos-duration="1400"
+                                data-aos-duration="700"
                                 data-aos-easing="ease-in-sine">
                                 <h2>Quicks Links</h2>
                                 <ul>
@@ -118,7 +118,7 @@ function Footer() {
                                 </ul>
                             </div>
                             <div class="Ft_item3 Ft_cmno1" data-aos="fade-up"
-                                data-aos-duration="1500"
+                                data-aos-duration="890"
                                 data-aos-easing="ease-in-sine">
                                 <h2>Subscribe</h2>
                                 <ul>

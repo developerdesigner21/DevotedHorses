@@ -2,6 +2,8 @@ import react from "react";
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import Typography from "@material-ui/core/Typography";
+import Typed from "react-typed";
 
 function Home() {
     return (
@@ -64,23 +66,39 @@ function Home() {
                                 {/* <!--<h1>Blue Web Solutions</h1>-     is-full-width--> */}
                                 <h1 class="heading-txt clip-text "
                                     data-aos="zoom-in"
-                                    data-aos-duration="500"
-                                    data-aos-easing="ease-in-sine">
-                                    <span>We Offer</span>
-                                    <span class="text_word_wrapper">
-                                        {/* <!-- <b class="visible-txt">SEO / SMO</b> --> */}
-                                        <b class="visible-txt">App Development</b>
+                                    data-aos-duration="250"
+                                    data-aos-easing="ease-in-sine" style={{ marginTop: "15%" }}>
+                                    <span>We Offer &nbsp;</span>
+                                    <Typography style={{ display: "inline-block", padding: "0.2em 0", fontSize: "1em", fontWeight: "500" }}>
+                                        <Typed className="visible-txt"
+                                            strings={[
+                                                "App Development",
+                                                "Web Development",
+                                                "UI/UX Design",
+                                                "Digital Marketing",
+                                            ]}
+                                            typeSpeed={40}
+                                            backSpeed={50}
+                                            loop
+                                        />
+                                    </Typography>
+                                    {/* <span class="text_word_wrapper" > */}
+                                    {/* <!-- <b class="visible-txt">SEO / SMO</b> --> */}
+
+
+
+                                    {/* <b class="visible-txt">App Development</b>
                                         <b class="hidden-txt">Web Development</b>
                                         <b class="hidden-txt">UI/UX Design</b>
-                                        <b class="hidden-txt">Digital Marketing</b>
-                                        {/* <!-- <b class="hidden-txt">Brand & Identity</b>
+                                        <b class="hidden-txt">Digital Marketing</b> */}
+                                    {/* <!-- <b class="hidden-txt">Brand & Identity</b>
                                               <b class="hidden-txt">Content Marketing</b>
                                               <b class="hidden-txt">SEO / SMO</b> --> */}
-                                    </span>
+                                    {/* </span> */}
                                 </h1>
                                 {/* </div> <!-- cd-intro -->     */}
                                 <p data-aos="zoom-in"
-                                    data-aos-duration="1400"
+                                    data-aos-duration="700"
                                     data-aos-easing="ease-in-sine">We provide custom software development and IT outsourcing services across multiple technologies including Java, PHP, JavaScript and many more. With the right partner and the right technologies, you can embrace the future   with confidence.
                                 </p>
                                 {/* <!-- <a href="#" class="GT_btn hvr-bounce-to-left"
@@ -150,16 +168,16 @@ function Home() {
                 <div class="container">
                     <div class="Srv-heading">
                         <h2 data-aos="zoom-in"
-                            data-aos-duration="500"
+                            data-aos-duration="250"
                             data-aos-easing="ease-in-sine">Our <span>Services</span> </h2>
                         <p data-aos="fade-up"
-                            data-aos-duration="1400"
+                            data-aos-duration="700"
                             data-aos-easing="ease-in-sine">We provide extensive fruitful services of Web Development, Ux/UI Development, Application Development, and <br />Digital Marketing to enhance business profits. <br />We are happy to help you!
                         </p>
                     </div>
                     <div class="Service_content">
                         <div class="a1 Srv_cmn" data-tilt data-tilt-reverse="true" data-aos="fade-right"
-                            data-aos-duration="500"
+                            data-aos-duration="100"
                             data-aos-easing="ease-in-sine">
                             <figure>
                                 <span class="spn1"> <img src="image/appdev11.gif" alt="img" /></span>
@@ -173,7 +191,7 @@ function Home() {
                             </figcaption>
                         </div>
                         <div class="a2 Srv_cmn" data-tilt data-tilt-reverse="true" data-aos="fade-down"
-                            data-aos-duration="1350"
+                            data-aos-duration="600"
                             data-aos-easing="ease-in-sine">
                             <figure>
                                 <span class="spn1">   <img src="image/web_developing.gif" alt="img" /></span>
@@ -187,7 +205,7 @@ function Home() {
                             </figcaption>
                         </div>
                         <div class="a3 Srv_cmn" id="Scroll_bottm" data-tilt data-tilt-reverse="true" data-aos="fade-left"
-                            data-aos-duration="500"
+                            data-aos-duration="250"
                             data-aos-easing="ease-in-sine">
                             <figure>
                                 <span class="spn1">   <img src="image/ui.gif" alt="img" /></span>
@@ -243,10 +261,10 @@ function Home() {
                                     </figcaption>
                                 </div> --> */}
                         <div class="a6 Srv_cmn" data-tilt data-tilt-reverse="true" data-aos="fade-up"
-                            data-aos-duration="500"
+                            data-aos-duration="250"
                             data-aos-easing="ease-in-sine">
                             <figure>
-                                <span class="spn1">   <img src="image/Digital.gif" alt="img" /></span>
+                                <span class="spn1">   <img src="image/digital.gif" alt="img" /></span>
                             </figure>
                             <figcaption>
                                 <h2>
@@ -264,7 +282,7 @@ function Home() {
 
             <section class="Achivement_wapper wow fadeIn" style={{ visibility: "visible" }}
                 data-aos="fade-up"
-                data-aos-duration="500"
+                data-aos-duration="250"
                 data-aos-easing="ease-in-sine">
                 <div class="Achiv_wave">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L120,202.7C240,213,480,235,720,224C960,213,1200,171,1320,149.3L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
@@ -273,7 +291,7 @@ function Home() {
                     <div class="Achievement_content">
                         <ul class="Achieve_unord">
                             <li class="Achievement_cnt01" data-aos="zoom-in"
-                                data-aos-duration="500"
+                                data-aos-duration="250"
                                 data-aos-easing="ease-in-sine">
                                 <figure>
                                     {/* <!-- <img src="" alt="img"> --> */}
@@ -288,7 +306,7 @@ function Home() {
                                 </figcaption>
                             </li>
                             <li class="Achievement_cnt02" data-aos="zoom-in"
-                                data-aos-duration="1400"
+                                data-aos-duration="500"
                                 data-aos-easing="ease-in-sine">
                                 <figure>
                                     {/* <!-- <img src="" alt="img"> --> */}
@@ -303,7 +321,7 @@ function Home() {
                                 </figcaption>
                             </li>
                             <li class="Achievement_cnt03" data-aos="zoom-in"
-                                data-aos-duration="1500"
+                                data-aos-duration="750"
                                 data-aos-easing="ease-in-sine">
                                 <figure>
                                     {/* <img src="" alt="img"> */}
@@ -340,11 +358,11 @@ function Home() {
                                 data-aos-duration="500"
                                 data-aos-easing="ease-in-sine">We are IT & Digital Marketing Company</h2>
                             <p data-aos="fade-left"
-                                data-aos-duration="1400"
+                                data-aos-duration="600"
                                 data-aos-easing="ease-in-sine">Tech DH is one of the best Information Technology and Digital Marketing Company in India, offering its extensive result-driven services to its global clients with the motive to enhance their business revenue. We help the business to transfer their offline business in to online and also to step-up on the online business mode with a strong appearance. We always work to offer our clients the out-of-box IT and Digital services that will provide them business advantages. Our expert professionals have great experience that leads our way to cater every need of our clients. We put all of our efforts dedicatedly to serve our clients with cutting-edge solutions so that they can compete in this ever-changing industry.</p>
                             <a data-aos="fade-left"
-                                data-aos-duration="1500"
-                                data-aos-easing="ease-in-sine" href="about.html" class="hvr-bounce-to-right">
+                                data-aos-duration="700"
+                                data-aos-easing="ease-in-sine" href="/About" class="hvr-bounce-to-right">
                                 learn more <i class="fas fa-angle-right"></i>
                             </a>
                         </div>
@@ -556,13 +574,13 @@ function Home() {
                 class="Testimonial_wrapper wow fadeIn"
                 style={{ visibility: "visible" }}
                 data-aos="fade-up"
-                data-aos-duration="500"
+                data-aos-duration="250"
             >
                 <div class="container">
                     <div class="testimonial-heading">
                         <h2
                             data-aos="zoom-in"
-                            data-aos-duration="500"
+                            data-aos-duration="250"
                             data-aos-easing="ease-in-sine"
                         >
                             Testimonials
@@ -578,7 +596,7 @@ function Home() {
                                     <div
                                         class="test_lft"
                                         data-aos="fade-right"
-                                        data-aos-duration="500"
+                                        data-aos-duration="250"
                                         data-aos-easing="ease-in-sine"
                                     >
                                         <figure>
@@ -589,7 +607,7 @@ function Home() {
                                     <div
                                         class="test_right"
                                         data-aos="fade-left"
-                                        data-aos-duration="500"
+                                        data-aos-duration="250"
                                         data-aos-easing="ease-in-sine"
                                     >
                                         <p>Done great work completed the task <br /> on time</p>

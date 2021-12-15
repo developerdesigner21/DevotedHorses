@@ -3421,9 +3421,9 @@ transform:rotate(359deg)
 .fa-angle-left:before {
 	content: "\f104"
 }
-.fa-angle-right:before {
+/* .fa-angle-right:before {
 	content: "\f105"
-}
+} */
 .fa-angle-up:before {
 	content: "\f106"
 }

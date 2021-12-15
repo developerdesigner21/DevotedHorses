@@ -9,16 +9,13 @@ function Digital() {
                         <div class="Bnr_left bnr-cmn">
                             <div class="hero_text">
                                 <h1 data-aos="zoom-in"
-                                    data-aos-duration="500"
-                                    data-aos-easing="ease-in-sine">Content Marketing</h1>
+                                    data-aos-duration="300"
+                                    data-aos-easing="ease-in-sine">Digital Marketing</h1>
                             </div>
                             {/* <!-- cd-intro --> */}
                             <p data-aos="fade-up"
-                                data-aos-duration="1400"
-                                data-aos-easing="ease-in-sine">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Incidunt quasi voluptatem et minima nostrum necessitatibus.
-                                Tenetur libero nesciunt fugit aspernatur!
-                                Tenetur libero nesciunt fugit aspernatur!
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-sine">Digital marketing solutions that eliminate your toughest internet marketing challenges.
                             </p>
                         </div>
                     </div>
@@ -32,30 +29,30 @@ function Digital() {
                 <div class="container" >
                     <div class="Srv-heading">
                         <h2 data-aos="zoom-in"
-                            data-aos-duration="500"
-                            data-aos-easing="ease-in-sine">Content Marketing</h2>
+                            data-aos-duration="300"
+                            data-aos-easing="ease-in-sine">Digital Marketing</h2>
                         <p data-aos="fade-up"
-                            data-aos-duration="1400"
-                            data-aos-easing="ease-in-sine">Lorem ipsum dolor sit amet consectetur adipisicing elit.  adipisicing elit.<br /> Placeat, illo?
-                            dolor sit amet consectetur adipisicing <br /> elit. Placeat, illo?
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-sine">We will ensure that new customers and clients are able to find your business in the online space. We are experts in digital marketing and can help you obtain the maximum online visibility and exposure.
                         </p>
                     </div>
                     <div class="App_cnt webdesign content1">
                         <div class="left_app1 left-cmn01" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                             <figure data-aos="fade-left"
-                                data-aos-duration="500"
+                                data-aos-duration="300"
                                 data-aos-easing="ease-in-sine">
-                                <img src="image/ContentMarketing1.gif" alt="img" />
+                                <img src="image/dm_brand.gif" alt="img" />
                             </figure>
                         </div>
                         <div class="right_app1 left-cmn01">
                             <h2 data-aos="fade-right"
-                                data-aos-duration="1400"
-                                data-aos-easing="ease-in-sine">What Is Content Marketing?</h2>
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-sine">Brand & Identity</h2>
                             <p data-aos="fade-right"
-                                data-aos-duration="1500"
-                                data-aos-easing="ease-in-sine">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum incidunt laborum, tempore odit quod ullam maiores exercitationem dignissimos, eaque asperiores, officiis enim excepturi dolorum similique.
-                                Ipsum incidunt laborum, tempore odit quod ullam maiores exercitationem dignissimos, eaque asperiores, officiis enim excepturi dolorum similique.
+                                data-aos-duration="1200"
+                                data-aos-easing="ease-in-sine">Your brand identity is what sets you apart from your competitors. It creates an instant sense of recognition through an authentic combination of visual and textual elements.
+                                Ultimately, it conveys whether you really are special or just adding to the noise.
+                                We are best in Logo Design, Brochure Design, Stationery Design
                             </p>
                             {/* <!-- <a href="#" class="hvr-bounce-to-right">learn more</a> --> */}
                         </div>
@@ -63,19 +60,18 @@ function Digital() {
                     <div class="App_cnt Eccommerce content2">
                         <div class="left_app1 left-cmn01" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                             <figure data-aos="fade-right"
-                                data-aos-duration="500"
+                                data-aos-duration="300"
                                 data-aos-easing="ease-in-sine">
-                                <img src="image/content2.gif" alt="img" />
+                                <img src="image/dm_SEO.gif" alt="img" />
                             </figure>
                         </div>
                         <div class="right_app1 left-cmn01">
                             <h2 data-aos="fade-left"
-                                data-aos-duration="1400"
-                                data-aos-easing="ease-in-sine">The Technique Of Content Marketing Strategy</h2>
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-sine">Search Engine Optimization / SMO</h2>
                             <p data-aos="fade-left"
-                                data-aos-duration="1500"
-                                data-aos-easing="ease-in-sine">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum incidunt laborum, tempore odit quod ullam maiores exercitationem dignissimos, eaque asperiores, officiis enim excepturi dolorum similique.
-                                Ipsum incidunt laborum, tempore odit quod ullam maiores exercitationem dignissimos, eaque asperiores, officiis enim excepturi dolorum similique.
+                                data-aos-duration="1200"
+                                data-aos-easing="ease-in-sine">We realize the goal of a business is not to just have a great-looking website, but to have a website that generates sales or leads continuously. The key to this is targeted traffic that is conditioned to be interested in your product or service.
                             </p>
                             {/* <!-- <a href="#" class="hvr-bounce-to-right">learn more</a> --> */}
                         </div>
@@ -83,19 +79,18 @@ function Digital() {
                     <div class="App_cnt Dynamic-web content3">
                         <div class="left_app1 left-cmn01" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                             <figure data-aos="fade-left"
-                                data-aos-duration="500"
+                                data-aos-duration="300"
                                 data-aos-easing="ease-in-sine">
-                                <img src="image/content3.gif" alt="img" />
+                                <img src="image/dm_content.gif" alt="img" />
                             </figure>
                         </div>
                         <div class="right_app1 left-cmn01">
                             <h2 data-aos="fade-right"
-                                data-aos-duration="1400"
-                                data-aos-easing="ease-in-sine">Why Content Marketing?</h2>
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-sine">Content Marketing</h2>
                             <p data-aos="fade-right"
-                                data-aos-duration="1500"
-                                data-aos-easing="ease-in-sine">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum incidunt laborum, tempore odit quod ullam maiores exercitationem dignissimos, eaque asperiores, officiis enim excepturi dolorum similique.
-                                Ipsum incidunt laborum, tempore odit quod ullam maiores exercitationem dignissimos, eaque asperiores, officiis enim excepturi dolorum similique.
+                                data-aos-duration="1200"
+                                data-aos-easing="ease-in-sine">Make content marketing hassle-free with our content marketing services. With our content marketing service packages, our award-winning team develops, writes, edits, and search-engine friendly content for your business. From blog posts to online guides to videos, you can do it all with TechDH.
                             </p>
                             {/* <!-- <a href="#" class="hvr-bounce-to-right">learn more</a> --> */}
                         </div>

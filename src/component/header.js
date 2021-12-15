@@ -1,7 +1,10 @@
-import react, { useState } from "react";
+import react, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 function Header() {
-    const [active, setActive] = useState(true);
+    const [active, setActive] = useState(window.innerWidth > 992 ? true : false);
+
+
+
     // const navigate = useNavigate();
     // const handleClick = () => navigate("/about");
     return (
